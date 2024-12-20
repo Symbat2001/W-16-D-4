@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #99ebe4;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 20px auto;
+    background:rgb(232, 236, 240);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+ 
+input, textarea{
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+button{
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+.blog-posts .post{
+    background: aliceblue;
+    padding: 15px;
+    margin: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid aliceblue;
+}
+
+.post h2{
+    margin-top: 0;
+    color: rgb(27, 27, 27);
+}
+
+.post small{
+    display: block;
+    color: grey;
+    margin-bottom: 10px;
+
+}
+
+.blog-posts .button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
